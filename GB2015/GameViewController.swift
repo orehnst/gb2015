@@ -9,6 +9,8 @@
 import UIKit
 import SpriteKit
 
+
+
 extension SKNode {
     class func unarchiveFromFile(file : NSString) -> SKNode? {
         if let path = NSBundle.mainBundle().pathForResource(file, ofType: "sks") {
@@ -40,7 +42,8 @@ class GameViewController: UIViewController {
             skView.ignoresSiblingOrder = true
             
             /* Set the scale mode to scale to fit the window */
-            scene.scaleMode = .AspectFill
+            scene.scaleMode = SKSceneScaleMode.AspectFill
+            
             
             skView.presentScene(scene)
         }

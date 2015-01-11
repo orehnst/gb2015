@@ -12,9 +12,15 @@
 		969FAAEF1A58369F009A99C2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FAAEE1A58369F009A99C2 /* GameScene.swift */; };
 		969FAAF11A58369F009A99C2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FAAF01A58369F009A99C2 /* GameViewController.swift */; };
 		969FAAF41A58369F009A99C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969FAAF21A58369F009A99C2 /* Main.storyboard */; };
-		969FAAF61A58369F009A99C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969FAAF51A58369F009A99C2 /* Images.xcassets */; };
 		969FAAF91A58369F009A99C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 969FAAF71A58369F009A99C2 /* LaunchScreen.xib */; };
 		969FAB051A58369F009A99C2 /* GB2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FAB041A58369F009A99C2 /* GB2015Tests.swift */; };
+		96D5FA931A58AF38005ECC90 /* bird_sit_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D5FA8E1A58AF38005ECC90 /* bird_sit_1.png */; };
+		96D5FA941A58AF38005ECC90 /* bird_sit_look_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D5FA8F1A58AF38005ECC90 /* bird_sit_look_left.png */; };
+		96D5FA951A58AF38005ECC90 /* bird_sit_look_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D5FA901A58AF38005ECC90 /* bird_sit_look_right.png */; };
+		96D5FA961A58AF38005ECC90 /* bird_sit_open_eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D5FA911A58AF38005ECC90 /* bird_sit_open_eyes.png */; };
+		96D5FA971A58AF38005ECC90 /* bird_sit_tired.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D5FA921A58AF38005ECC90 /* bird_sit_tired.png */; };
+		96F9F0EE1A5C87A200833760 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F9F0ED1A5C87A200833760 /* Media.xcassets */; };
+		96F9F0F01A5C87C500833760 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F9F0EF1A5C87C500833760 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +41,17 @@
 		969FAAEE1A58369F009A99C2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		969FAAF01A58369F009A99C2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		969FAAF31A58369F009A99C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		969FAAF51A58369F009A99C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		969FAAF81A58369F009A99C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		969FAAFE1A58369F009A99C2 /* GB2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GB2015Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		969FAB031A58369F009A99C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		969FAB041A58369F009A99C2 /* GB2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GB2015Tests.swift; sourceTree = "<group>"; };
+		96D5FA8E1A58AF38005ECC90 /* bird_sit_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_sit_1.png; sourceTree = "<group>"; };
+		96D5FA8F1A58AF38005ECC90 /* bird_sit_look_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_sit_look_left.png; sourceTree = "<group>"; };
+		96D5FA901A58AF38005ECC90 /* bird_sit_look_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_sit_look_right.png; sourceTree = "<group>"; };
+		96D5FA911A58AF38005ECC90 /* bird_sit_open_eyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_sit_open_eyes.png; sourceTree = "<group>"; };
+		96D5FA921A58AF38005ECC90 /* bird_sit_tired.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_sit_tired.png; sourceTree = "<group>"; };
+		96F9F0ED1A5C87A200833760 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		96F9F0EF1A5C87C500833760 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +93,16 @@
 		969FAAE71A58369F009A99C2 /* GB2015 */ = {
 			isa = PBXGroup;
 			children = (
+				96F9F0EF1A5C87C500833760 /* Images.xcassets */,
 				969FAAEA1A58369F009A99C2 /* AppDelegate.swift */,
 				969FAAEC1A58369F009A99C2 /* GameScene.sks */,
 				969FAAEE1A58369F009A99C2 /* GameScene.swift */,
 				969FAAF01A58369F009A99C2 /* GameViewController.swift */,
 				969FAAF21A58369F009A99C2 /* Main.storyboard */,
-				969FAAF51A58369F009A99C2 /* Images.xcassets */,
+				96D5FA8D1A58AF38005ECC90 /* sit */,
 				969FAAF71A58369F009A99C2 /* LaunchScreen.xib */,
 				969FAAE81A58369F009A99C2 /* Supporting Files */,
+				96F9F0ED1A5C87A200833760 /* Media.xcassets */,
 			);
 			path = GB2015;
 			sourceTree = "<group>";
@@ -116,6 +130,19 @@
 				969FAB031A58369F009A99C2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96D5FA8D1A58AF38005ECC90 /* sit */ = {
+			isa = PBXGroup;
+			children = (
+				96D5FA8E1A58AF38005ECC90 /* bird_sit_1.png */,
+				96D5FA8F1A58AF38005ECC90 /* bird_sit_look_left.png */,
+				96D5FA901A58AF38005ECC90 /* bird_sit_look_right.png */,
+				96D5FA911A58AF38005ECC90 /* bird_sit_open_eyes.png */,
+				96D5FA921A58AF38005ECC90 /* bird_sit_tired.png */,
+			);
+			name = sit;
+			path = ../../Development/birdonawire/graphics/png/sit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +226,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				969FAAF91A58369F009A99C2 /* LaunchScreen.xib in Resources */,
-				969FAAF61A58369F009A99C2 /* Images.xcassets in Resources */,
+				96F9F0F01A5C87C500833760 /* Images.xcassets in Resources */,
+				96D5FA931A58AF38005ECC90 /* bird_sit_1.png in Resources */,
 				969FAAED1A58369F009A99C2 /* GameScene.sks in Resources */,
 				969FAAF41A58369F009A99C2 /* Main.storyboard in Resources */,
+				96D5FA941A58AF38005ECC90 /* bird_sit_look_left.png in Resources */,
+				96D5FA971A58AF38005ECC90 /* bird_sit_tired.png in Resources */,
+				96D5FA951A58AF38005ECC90 /* bird_sit_look_right.png in Resources */,
+				96F9F0EE1A5C87A200833760 /* Media.xcassets in Resources */,
+				96D5FA961A58AF38005ECC90 /* bird_sit_open_eyes.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +382,7 @@
 				INFOPLIST_FILE = GB2015/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -359,6 +393,7 @@
 				INFOPLIST_FILE = GB2015/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -415,6 +450,7 @@
 				969FAB0A1A58369F009A99C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		969FAB0B1A58369F009A99C2 /* Build configuration list for PBXNativeTarget "GB2015Tests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +459,7 @@
 				969FAB0D1A58369F009A99C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
