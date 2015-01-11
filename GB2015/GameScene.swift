@@ -376,7 +376,7 @@ class GameScene: SKScene {
         let ctx = UIGraphicsGetCurrentContext()
         let circle = CGPathCreateWithEllipseInRect(CGRectMake(0,0, size.width, size.height), nil)
         CGContextSetRGBStrokeColor(ctx, 0.8, 0.8, 0.9, 1.0)
-        CGContextSetRGBFillColor(ctx, 0.5, 0.8, 0.8 , 0.2)
+        CGContextSetRGBFillColor(ctx, 0.4, 0.8, 0.8 , 0.2)
         CGContextSetLineWidth(ctx, 2)
         
         CGContextAddPath(ctx, circle)
